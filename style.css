@@ -1,0 +1,308 @@
+*{
+	padding:0;
+	margin:0;
+}
+ul,li{
+	list-style:none;
+}
+a{
+	text-decoration:none;
+}
+.container{
+	width: 100%;
+	height: 1150px;
+}
+.cover1{
+	height:50px;
+	width: 100%;
+	background-color: #f4f4f4;
+
+}
+.top1{
+	height: 40px;
+	background-color: #f4f4f4;
+	font-size: 18px;
+}
+ .table{
+ 	width: 1200px;
+ 	margin: 0 auto;
+ 	line-height: 40px;
+ 	text-align: center;
+ }
+.nav2{
+	width: 1200px;
+	margin: 0 auto;
+}
+ .nav2 li{
+	display: inline-block;
+	vertical-align: top;
+	width: 120px;
+	height: 50px;
+}
+.nav2 > li > a{
+	color: #7D7D7D;
+	
+}
+.nav2 > li:hover{
+	background: #FFFFFF;
+}
+.nav2 > li:hover > a{
+	color: #FF4400;
+}
+ .hide2{
+	display: none;
+	background: #f4f4f4;
+}
+.hide2 a{
+	color: #7D7D7D;
+}
+.nav2 li:hover .hide2{
+	display: block;
+
+}
+.hide2 li:hover{
+	background:#ffffff ; 
+}
+.hide2 a:hover{
+	color: #FF4400;
+}
+
+.middle{
+	width: 100%;
+	height: 700px;
+	margin-top: 220px;
+}
+
+.mid{
+	width: 1200px;
+	height: 700px;
+	margin: 0px auto;
+	border: 5px solid pink;
+}
+.box{
+	width: 1200px;
+    height: 400px;
+    position: relative;
+    overflow: hidden;
+}
+.slider{
+	width: 8400px;
+	position: absolute;
+	left: -1200px;
+}
+.slide{
+	width: 1200px;
+	overflow: hidden;
+	float: left;
+}
+.box > span{
+	display: block;
+	width: 30px;
+	height: 50px;
+	text-align: center;
+	cursor: pointer;
+	color: #fff;
+	top: 175px;
+	line-height: 50px;
+	background: rgb(255,0,0);
+	font-size: 30px;
+	position: absolute;
+	opacity: 0;
+}
+#left{
+	left: 30px;
+}
+#right{
+	right: 30px;
+}
+.nav{
+	position: absolute;
+	left: 500px;
+	bottom: 0px;
+	text-align: center;
+}
+.nav > li{
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: #ccc;
+	cursor: pointer;
+	margin: 0 10px;
+	font-size: 13px;
+	border-radius: 50%;
+}
+.nav .active{
+	background: red;
+	color: #fff;
+}
+
+.bigger{
+	width: 1200px;
+	height:300px;
+	margin-top: 20px;
+}
+.b1{
+	width: 200px;
+	height: 200px;
+	background: url(images/big1.jpg) no-repeat center;
+	float: left;
+	margin-right: 50px;
+}
+.b2{
+	width: 200px;
+	height: 200px;
+	background: url(images/big2.jpg) no-repeat center;
+	float: left;
+	margin-right: 30px;
+}
+.b3{
+	width: 200px;
+	height: 200px;
+	background: url(images/1.jpg) no-repeat center;
+	float: left;
+	margin-right: 30px;
+}
+.b4{
+	width: 200px;
+	height: 200px;
+	background: url(images/big3.jpg) no-repeat center;
+	float: left;
+	margin-right: 30px;
+}
+.b5{
+	width: 200px;
+	height: 200px;
+	background: url(images/big4.jpg) no-repeat center;
+	float: left;
+}
+
+.lef{
+	width: 100px;
+	position: fixed;
+	left: 0px;
+	top: 120px;
+	float: left;
+}
+.lef li{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	background-color:pink;
+	border-bottom: 1px solid #fff;
+}
+.lef li a{
+	color:orange;
+}
+.pj{
+	width: 1200px;
+	height: 50px;
+	margin: 0 auto;
+	float: left;
+	padding-left: 500px;
+}
+.pj a{
+	 color: #000;
+}
+
+.rig{
+	position: absolute;
+    width: 100px;
+    right: 0px;
+    margin: 0px;
+    padding: 0px;
+}
+.rig li{
+	width: 120px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 15px;
+	background-color:#F9277A;
+}
+.rights a{
+	color: white;
+}
+.n1{
+	top: 200px;
+	right: 0px;
+	position: fixed;
+}
+.n2{
+	top: 240px;
+	right: -100px;
+	position: fixed;
+}
+.n3{
+	top: 280px;
+	right: -100px;
+	position: fixed;
+}
+.n4{
+	top: 320px;
+	right: -100px;
+	position: fixed;
+}
+.n5{
+	top: 360px;
+	right: -100px;
+	position: fixed;
+}
+.n6{
+	top: 400px;
+	right: -100px;
+	position: fixed;
+}
+.rights li:hover{
+	right: 0px;
+} 
+
+.last{
+	width: 900px;
+	height:100px;
+	border-bottom: 2px solid #454545;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+ .nav4 li{
+ 	font-size: 12px;
+	float: left;
+	width: 80px;
+	height: 30px;
+}
+.nav4 a{
+	color: #7D7D7D;
+	
+}
+.nav4 li:hover{
+	background: #FFFFFF;
+
+}
+.nav4 a:hover{
+	color: #FF4400;
+}
+ .nav5 li{
+ 	font-size: 12px;
+	float: left;
+	width: 70px;
+	height: 30px;
+}
+.nav5 a{
+	color: #7D7D7D;
+	
+}
+.nav5 li:hover{
+	background: #FFFFFF;
+
+}
+.nav5 a:hover{
+	color: #FF4400;
+}
+.phone{
+	width: 900px;
+	height:100px;
+	margin: 0 auto;
+	font-size: 12px;
+	color: #7D7D7D;	
+}
+
