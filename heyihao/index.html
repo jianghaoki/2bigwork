@@ -4,7 +4,6 @@
         <meta charset="utf-8">
         <title>商品评价</title>
         <link rel="stylesheet" type="text/css" href="style.css">
-        <script src="animate.js"></script>
     </head>
     <body>
         <div class="container">
@@ -70,41 +69,70 @@
                     <li><a href="#">红包卡券</a></li>
                 </ul>
                 <div class="mid"> 
-                    <div class="box" id="box">
-                    <!-- id属性一定要写对 -->
-                        <div class="slider" id="slider">
-                             <div class="slide">
-                                <img src="images/a5.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/a1.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/a2.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/a3.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/a4.png" alt="">
-                            </div>
-                            <div class="slide">
-                                <img src="images/a5.png" alt="">
-                            </div>
-                             <div class="slide">
-                                <img src="images/a1.png" alt="">
-                            </div>
-                        </div>
-                        <span id="left"><</span>
-                        <span id="right">></span>
-                        <ul class="nav" id="nav">
-                            <li class="active">1</li>
-                            <li>2</li>
-                            <li>3</li>
-                            <li>4</li>
-                            <li>5</li>
+                    <div class="bangbangkuaixun1">
+                        <ul id="ul">
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
+                             <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">A发表评论:<br/>衣服收到了，迫不及待的就试穿了一下，感觉还可以
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">B发表评论:<br/>一开始买大了 换了小一号的 客服小姐姐态度超级好 没两天换的都已经寄来了 虽然不是很厚 但是很抗风 颜色比直播间要暗一点 也很好看 质量很好
+                                </a>
+                            </li>
                         </ul>
-                    </div> 
+            </div>
                     <div class="bigger">
                         <div class="b1">
                         </div>
@@ -117,7 +145,7 @@
                          <div class="b5">
                         </div>
                         <div class="pj">
-                        <a href="https://drunkcao.github.io/bigwork/">商品评价</a>
+                        <a href="https://drunkcao.github.io/bigwork/">我去评价-></a>
                         </div>
                     </div>
                 </div>
@@ -178,86 +206,32 @@
         </div>
     </body>
     <script>
-        /* 图片轮播*/
-        var box = document.getElementById('box');
-        var oNavlist = document.getElementById('nav').children;
-        var slider = document.getElementById('slider');
-        var left = document.getElementById('left');
-        var right = document.getElementById('right');
-        var lslide = document.getElementById("lslide")
-        var index = 1;
-        var isMoving = false;
-        //轮播下一张的函数
-        function next(){
-            if(isMoving){
-                return;
-            }
-            isMoving = true;
-            index++;
-            navChange();
-            animate(slider,{left:-1200*index},function(){
-                if(index === 6){
-                    slider.style.left = "-1200px";
-                    index = 1;
-                }
-                isMoving = false;
-                });
-            }
-            //轮播前一张的函数
-            function prev(){
-                if(isMoving){
-                    return;
-                }
-                isMoving = true;
-                index--;
-                navChange();
-                animate(slider,{left:-1200 * index},function(){
-                    if(index === 0){
-                        slider.style.left = "-6000px";
-                        index = 5;
-                    }
-                    isMoving = false;
-                });
-            }
-            var timer = setInterval(next,3000);
-            //鼠标划入清定时器
-            box.onmouseover = function(){
-                animate(left,{opacity:50});
-                animate(right,{opacity:50});
-                clearInterval(timer);
-            }
-            //鼠标划出开定时器
-            box.onmouseout = function(){
-                animate(left,{opacity:0});
-                animate(right,{opacity:0});
-                timer = setInterval(next,3000);
-            }
-            right.onclick = next;
-            left.onclick = prev;
-            //小按钮点击事件
-            for(var i = 0;i < oNavlist.length;i++){
-                oNavlist[i].idx = i;//对象添加属性
-                oNavlist[i].onclick = function(){
-                    index = this.idx + 1;
-                    navChange();
-                    animate(slider,{left:-1200 * index});
-                }
-            }
-            //小按钮背景色切换
-            function navChange(){
-                for(var i = 0;i < oNavlist.length;i++){
-                     oNavlist[i].className = '';
-                }
-                if(index === 0){
-                    oNavlist[4].className = 'active';
-                }
-                else if(index === 6){
-                     oNavlist[0].className = 'active';
-                }
-                else{
-                     oNavlist[index-1].className =' active';
-                }
-            }
-    </script>
+        // 公告上下滚动
 
+        //ul动起来
+        var ul = document.getElementById("ul");
+
+        function show() {
+            var top = ul.offsetTop - 1; //获取left值
+            ul.style.top = top + "px"; //设置left值
+            //走完一半再返回
+            if (-1 * ul.offsetTop >= ul.offsetHeight / 2) {
+                ul.style.top = 0;
+            }
+        }
+        var t = setInterval(show, 20);
+        //li添加鼠标移入移出事件
+        var li = document.getElementById("ul").getElementsByTagName("li");
+        for (var i = 0; i < li.length; i++) {
+            //移出事件
+            li[i].onmouseout = function () {
+                //不能加 var
+                t = setInterval(show, 20);
+            };
+            //移入事件
+            li[i].onmouseover = function () {
+                clearInterval(t);
+            };
+        }
+    </script>
 </html>
